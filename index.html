@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="us">
+    <head>
+        <title></title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        
+        <link rel="stylesheet" href="/style.css">
+    </head>
+
+    <body>
+        <div class="wi-icon-box-wrapper">
+            <div class="wi-icon-section">
+                <div class="wi-shadow">
+                    <div class="black-filter"></div>
+                    <div class="white-filter"></div>
+                </div>
+                <div class="wi-spinner"></div>
+                <div class="wi-icon">
+                    <div class="black-filter"></div>
+                    <span class="wi-icon-text">LIVE</span>
+                    <div class="white-filter"></div>
+                </div>
+        </div>
+        </div>
+        <script>
+            setInterval(function() {
+                const iconSection = document.querySelector('.wi-icon-section');
+                iconSection.classList.toggle('wi-pulse');
+            }, 2000);
+        </script>
+
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
